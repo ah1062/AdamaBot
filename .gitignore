@@ -17,3 +17,6 @@ config.toml
 
 # Documentation files
 docs/build
+
+# Database
+*.sqlite

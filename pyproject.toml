@@ -10,7 +10,7 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-adama = "adama.main:main"
+main = "adama.main:main"
 
 [dependency-groups]
 dev = [
