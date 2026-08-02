@@ -9,9 +9,14 @@ class Repositories():
 
 @dataclass
 class Services():
-	game: GameService = field(default=GameService(GameRepository()))
+	game: GameService
 
 @dataclass
 class Container():
 	repos: Repositories = field(default_factory=Repositories)
-	services: Services = field(default_factory=Services)
+	services: Services = field(init=False)
+
+	def __post_init__(self):
+		self.services = Services(
+			game=GameService(self.repos.game)
+		)
