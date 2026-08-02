@@ -20,3 +20,6 @@ docs/build
 
 # Database
 *.sqlite
+
+# Scenario files
+*.dow.json

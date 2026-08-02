@@ -1,4 +1,6 @@
+from .coordinates import CoordState
 from .game import Game
 from .galaxy import Galaxy
+from .ship import Ship
 
-__all__ = ["Galaxy", "Game"]
+__all__ = ["CoordState", "Galaxy", "Game", "Ship"]

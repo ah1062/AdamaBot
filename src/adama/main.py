@@ -5,6 +5,7 @@ import discord
 
 from adama.bot import AdamaBot
 from adama.config import config
+from adama.container import Container
 from adama.utils.logging import setup_logging
 
 logger = logging.getLogger()
@@ -18,7 +19,8 @@ async def _main():
 	intents.members = True
 	intents.message_content = True
 
-	bot = AdamaBot(command_prefix=prefix, intents=intents)
+	container = Container()
+	bot = AdamaBot(command_prefix=prefix, intents=intents, container=container)
 	try:
 		await bot.start(token)
 	except asyncio.CancelledError, KeyboardInterrupt:

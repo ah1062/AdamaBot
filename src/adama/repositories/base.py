@@ -1,16 +1,24 @@
 from abc import ABC
-import sqlite3
 from typing import Generic, TypeVar
 
-from adama.config import config
+from adama.db.database import get_connection
 
 T = TypeVar("T")
 class Repository(ABC, Generic[T]):
 	def __init__(self) -> None:
-		self.conn = sqlite3.connect(config.database.DB_PATH)
+		self.conn = get_connection()
 
-	def save(self, entity: T) -> bool: ...
-	def load(self, id: int) -> T | None: ...
-	def delete(self, id: int) -> bool: ...
-	def all(self) -> list[T]: ...
+	def save(self, entity: T) -> bool: 
+		raise NotImplementedError
+
+	def load(self, id: str) -> T | None: 
+		raise NotImplementedError
+
+	def delete(self, entity: T) -> None: 
+		raise NotImplementedError
 	
+	def purge(self, entity: T) -> None: 
+		raise NotImplementedError
+	
+	def all(self) -> list[T]:
+		raise NotImplementedError

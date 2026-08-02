@@ -12,7 +12,7 @@ test:
 	pytest
 
 deps:
-	pydeps src/adama -o dependencies.png -T png --noshow --rankdir LR --exclude "adama.utils*" "adama.constants"
+	pydeps src/adama -o dependencies.png -T png --noshow --rankdir LR --only "adama" --exclude "adama.utils*" "adama.constants"
 
 docs:
 	sphinx-apidoc -f -o docs/source src/adama/

@@ -2,25 +2,36 @@ import logging
 
 from discord.ext import commands
 
-from adama.models import Galaxy, Game
-from adama.services.game import game_service
+from adama.bot import AdamaBot
+
 
 logger = logging.getLogger()
 
 
 class GameCommands(commands.Cog):
-	def __init__(self, bot):
+	def __init__(self, bot: AdamaBot):
 		self.bot = bot
 
 	@commands.command(name="create_game", brief="Create a game of Den of Wolves")
 	async def create_game(self, ctx: commands.Context):
-		assert ctx.guild is not None
+		raise NotImplementedError
 
-		galaxy = Galaxy(0)
-		game = Game(ctx.guild.id, galaxy.id)
-		logger.info(game_service)
+	@commands.command(name="delete_game", brief="Delete a game of Den of Wolves")
+	async def delete_game(self, ctx: commands.Context):
+		raise NotImplementedError
 
+	@commands.command(name="start_game", brief="Start a game of Den of Wolves")
+	async def start_game(self, ctx: commands.Context):
+		raise NotImplementedError
 
-async def setup(bot):
+	@commands.command(name="end_game", brief="End a game of Den of Wolves")
+	async def end_game(self, ctx: commands.Context):
+		raise NotImplementedError
+
+	@commands.command(name="adjudicate", brief="End a turn of Den of Wolves")
+	async def adjudicate(self, ctx: commands.Context):
+		raise NotImplementedError
+
+async def setup(bot: AdamaBot):
 	cog = GameCommands(bot)
 	await bot.add_cog(cog)

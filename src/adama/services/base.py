@@ -1,0 +1,6 @@
+from abc import ABC
+
+
+class BaseService(ABC):
+	def start(self): ...
+	def close(self): ...

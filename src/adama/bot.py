@@ -4,15 +4,17 @@ import discord
 from discord.ext import commands
 
 from adama.constants import _BOT_EXTENSION_DIRECTORY, _BOT_EXTENSION_MODULE
+from adama.container import Container
 
 logger = logging.getLogger()
 
 
 class AdamaBot(commands.Bot):
-	def __init__(self, command_prefix, intents=discord.Intents.default()):
+	def __init__(self, command_prefix, intents=discord.Intents.default(), container=Container()):
 		super().__init__(command_prefix=command_prefix, intents=intents)
 
 		self.epoch = discord.utils.utcnow()
+		self.container = container
 
 	async def setup_hook(self):
 		self.before_invoke(self.before_command)
