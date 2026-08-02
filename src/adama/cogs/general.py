@@ -11,6 +11,7 @@ logger = logging.getLogger()
 class GeneralCommands(commands.Cog):
 	def __init__(self, bot: AdamaBot):
 		self.bot = bot
+		self.container = bot.container
 
 	@commands.command(name="ping", brief="Say hello to the bot!")
 	async def ping(self, ctx: commands.Context):

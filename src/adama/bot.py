@@ -45,9 +45,15 @@ class AdamaBot(commands.Bot):
 		assert ctx.command is not None
 		now = discord.utils.utcnow()
 
-		if ctx.command:
-			cmd_log = f"{ctx.command.name} took {now - ctx.message.created_at}s"
-			logger.info(cmd_log)
+		if not ctx.command:
+			return
+
+		time_taken = now - ctx.message.created_at
+		if time_taken.total_seconds() < 0:
+			time_taken = 0
+
+		cmd_log = f"{ctx.command.name} took {time_taken}s"
+		logger.info(cmd_log)
 
 	async def on_command_error(self, ctx: commands.Context, exc):
 		if isinstance(exc, commands.CommandNotFound):

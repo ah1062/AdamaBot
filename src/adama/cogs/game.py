@@ -11,6 +11,7 @@ logger = logging.getLogger()
 class GameCommands(commands.Cog):
 	def __init__(self, bot: AdamaBot):
 		self.bot = bot
+		self.container = bot.container
 
 	@commands.command(name="create_game", brief="Create a game of Den of Wolves")
 	async def create_game(self, ctx: commands.Context):
