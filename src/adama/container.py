@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 
-from adama.repositories.game import GameRepository
-from adama.services.game import GameService
+from adama.repositories import GameRepository
+from adama.services import GameService
 
 @dataclass
 class Repositories():
