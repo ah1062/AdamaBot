@@ -1,0 +1,133 @@
+{
+    "ship": {
+        "name": "Ship Name",
+        "ID": "XXXX",
+        "coordinates": "12903",
+        "next_coordinates": "",
+        "sabotage_coordinates": "",
+        "food_ration_level": "none",
+        "water_ration_level": "none",
+        "isolated": false,
+        "lockdown": false,
+        "morale_level": 10,
+        "morale_role_modifiers": {
+            "temp_morale_roll_modifier": 0,
+            "perm_morale_roll_modifier": 0,
+            "fleet_temp_morale_roll_modifier": 0,
+            "fleet_perm_morale_roll_modifier": 0
+        },
+        "resources": {
+            "food": 0,
+            "fuel": 0,
+            "materials": 0,
+            "ore": 0,
+            "water": 0
+        },
+        "ration_levels": {
+            "luxurious": {
+                "food": 0,
+                "water": 0
+            },
+            "increased": {
+                "food": 0,
+                "water": 0
+            },
+            "normal": {
+                "food": 0,
+                "water": 0
+            },
+            "low": {
+                "food": 0,
+                "water": 0
+            },
+            "minimum": {
+                "food": 0,
+                "water": 0
+            },
+            "critical": {
+                "food": 0,
+                "water": 0
+            },
+            "none": {
+                "food": 0,
+                "water": 0
+            }
+        },
+        "fuel_consumption": {
+            "short": 0,
+            "medium": 0,
+            "long": 0
+        },
+        "players": {},
+        "stations": {
+            "station": {
+                "name": "Reployer",
+                "ID": "XXXX",
+                "description": "What the hell is a 'Reployer'?",
+                "usable": true,
+                "reusable": false,
+                "startofturn": false,
+                "exhausted": false,
+                "damaged": false,
+                "damaged_description": "Nobody knows what a 'reployer' is",
+                "alert_gm_on_use": false,
+                "alert_gm_on_damage": false,
+                "input": {
+                    "food": 0,
+                    "fuel": 0,
+                    "materials": 0,
+                    "ore": 0,
+                    "water": 0,
+                    "crew_keyword": "team",
+                    "crew_amount": 1
+                },
+                "output": {
+                    "food": 0,
+                    "fuel": 0,
+                    "materials": 0,
+                    "ore": 0,
+                    "water": 0
+                },
+                "repair_cost": {
+                    "materials": 0,
+                    "crew_keyword": "engineer",
+                    "crew_amount": 1
+                }
+            }
+        },
+        "shuttles": {
+            "shuttle": {
+                "name": "Shuttle",
+                "ID": "XXXX",
+                "intercepted": false,
+                "clearance": false,
+                "resources": {
+                    "food": 0,
+                    "fuel": 0,
+                    "materials": 0,
+                    "ore": 0,
+                    "water": 0
+                }
+            }
+        },
+        "units": {
+            "unit": {
+                "name": "Dudes",
+                "ID": "XXXX",
+                "damaged": false,
+                "exhausted": false
+            }
+        },
+        "action_cards": {
+            "action_card": {
+                "name": "Do Cool Thing",
+                "ID": "XXXX",
+                "retained": false,
+                "once_per_turn": true,
+                "exhausted": false,
+                "affiliation_restricted": true,
+                "description": "The cool thing does"
+            }
+        }
+    }
+}
