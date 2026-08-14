@@ -1,7 +1,6 @@
 {
-    "ship": {
+    "0100": {
         "name": "Aegis",
-        "ID": "0100",
         "coordinates": "12903",
         "next_coordinates": "",
         "sabotage_coordinates": "",
@@ -60,9 +59,8 @@
         },
         "players": {},
         "stations": {
-            "station": {
+            "0110": {
                 "name": "Hull Plating",
-                "ID": "0110",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -94,9 +92,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0111": {
                 "name": "Hull Plating",
-                "ID": "0111",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -128,9 +125,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0112": {
                 "name": "Hull Plating",
-                "ID": "0112",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -162,9 +158,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0113": {
                 "name": "Hull Plating",
-                "ID": "0113",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -196,9 +191,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0114": {
                 "name": "Hull Plating",
-                "ID": "0114",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -230,9 +224,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0115": {
                 "name": "Hull Plating",
-                "ID": "0115",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -264,9 +257,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0116": {
                 "name": "Hull Plating",
-                "ID": "0116",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -298,9 +290,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0117": {
                 "name": "Food Storage",
-                "ID": "0117",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -332,9 +323,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0118": {
                 "name": "Water Storage",
-                "ID": "0118",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -366,9 +356,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0119": {
                 "name": "Fuel Storage",
-                "ID": "0119",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -400,9 +389,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0120": {
                 "name": "Munitions Storage",
-                "ID": "0120",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -434,9 +422,8 @@
                     "crew_amount": 2
                 }
             },
-            "station": {
+            "0121": {
                 "name": "Communications",
-                "ID": "0121",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -468,9 +455,8 @@
                     "crew_amount": 2
                 }
             },
-            "station": {
+            "0122": {
                 "name": "Brig",
-                "ID": "0122",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -502,9 +488,8 @@
                     "crew_amount": 2
                 }
             },
-            "station": {
+            "0123": {
                 "name": "Command Bridge",
-                "ID": "0123",
                 "description": "",
                 "usable": false,
                 "reusable": false,
@@ -536,9 +521,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0124": {
                 "name": "Weapon Batteries",
-                "ID": "0124",
                 "description": "Once each wolf attack roll 1d6: 2+ = destroy 1 squadron, 6+ = destroy 2 instead.",
                 "usable": true,
                 "reusable": false,
@@ -570,9 +554,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0125": {
                 "name": "Weapon Batteries",
-                "ID": "0125",
                 "description": "Once each wolf attack roll 1d6: 2+ = destroy 1 squadron, 6+ = destroy 2 instead.",
                 "usable": true,
                 "reusable": false,
@@ -604,9 +587,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0126": {
                 "name": "Jump Drive",
-                "ID": "0126",
                 "description": "Allows jumping.",
                 "usable": true,
                 "reusable": false,
@@ -638,9 +620,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0127": {
                 "name": "Sickbay",
-                "ID": "0127",
                 "description": "Heal 1 wounded crew (call control)",
                 "usable": true,
                 "reusable": false,
@@ -672,9 +653,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0128": {
                 "name": "Hangar Bay",
-                "ID": "0128",
                 "description": "Each pilot used allows 2 fighter units to be deployed.",
                 "usable": true,
                 "reusable": true,
@@ -706,9 +686,8 @@
                     "crew_amount": 2
                 }
             },
-            "station": {
+            "0129": {
                 "name": "H-1 Collector 3.0",
-                "ID": "0129",
                 "description": "",
                 "usable": true,
                 "reusable": false,
@@ -740,9 +719,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0130": {
                 "name": "H-1 Collector 3.0",
-                "ID": "0130",
                 "description": "",
                 "usable": true,
                 "reusable": false,
@@ -774,9 +752,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0131": {
                 "name": "H-1 Collector 3.0",
-                "ID": "0131",
                 "description": "",
                 "usable": true,
                 "reusable": false,
@@ -808,9 +785,8 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0132": {
                 "name": "Food Synthesiser 3.0",
-                "ID": "0132",
                 "description": "",
                 "usable": true,
                 "reusable": false,
@@ -842,7 +818,7 @@
                     "crew_amount": 1
                 }
             },
-            "station": {
+            "0133": {
                 "name": "Food Synthesiser 3.0",
                 "ID": "0133",
                 "description": "",
@@ -875,12 +851,11 @@
                     "crew_keyword": "engineer",
                     "crew_amount": 1
                 }
-            },
+            }
         },
         "shuttles": {
-            "shuttle": {
+            "0101": {
                 "name": "Cyclops",
-                "ID": "0101",
                 "intercepted": false,
                 "clearance": false,
                 "resources": {
@@ -891,9 +866,8 @@
                     "water": 0
                 }
             },
-            "shuttle": {
+            "0102": {
                 "name": "Blackbird",
-                "ID": "0102",
                 "intercepted": false,
                 "clearance": false,
                 "resources": {
@@ -906,239 +880,205 @@
             }
         },
         "units": {
-            "unit": {
+            "0170": {
                 "name": "Work Team",
-                "ID": "0170",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0171": {
                 "name": "Work Team",
-                "ID": "0171",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0172": {
                 "name": "Work Team",
-                "ID": "0172",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0173": {
                 "name": "Work Team",
-                "ID": "0173",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0174": {
                 "name": "Medical Team",
-                "ID": "0174",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0175": {
                 "name": "Piloting Team",
-                "ID": "0175",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0176": {
                 "name": "Piloting Team",
-                "ID": "0176",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0177": {
                 "name": "Piloting Team",
-                "ID": "0177",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0178": {
                 "name": "Engineering Team",
-                "ID": "0178",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0179": {
                 "name": "Marine Forces",
-                "ID": "0179",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0180": {
                 "name": "Marine Forces",
-                "ID": "0180",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0181": {
                 "name": "Marine Forces",
-                "ID": "0181",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0182": {
                 "name": "Marine Forces",
-                "ID": "0182",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0183": {
                 "name": "Marine Forces",
-                "ID": "0183",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0184": {
                 "name": "Fighter Squadron",
-                "ID": "0184",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0185": {
                 "name": "Fighter Squadron",
-                "ID": "0185",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0186": {
                 "name": "Fighter Squadron",
-                "ID": "0186",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0187": {
                 "name": "Fighter Squadron",
-                "ID": "0187",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0188": {
                 "name": "Fighter Squadron",
-                "ID": "0188",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0189": {
                 "name": "Fighter Squadron",
-                "ID": "0189",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0190": {
                 "name": "Fighter Squadron",
-                "ID": "0190",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0191": {
                 "name": "Fighter Squadron",
-                "ID": "0191",
                 "damaged": false,
                 "exhausted": false
             },
-            "unit": {
+            "0192": {
                 "name": "Fighter Squadron",
-                "ID": "0192",
                 "damaged": false,
                 "exhausted": false
             }
         },
         "action_cards": {
-            "action_card": {
+            "0140": {
                 "name": "Authorize Use of Lethal Force",
-                "ID": "0140",
                 "retained": true,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "+2 to disperse riots this turn. Reduce fleet morale by 1."
             },
-            "action_card": {
+            "0141": {
                 "name": "Security Lockdown",
-                "ID": "0141",
                 "retained": false,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Play to prevent any players from moving to or from the Aegis until end of turn."
             },
-            "action_card": {
+            "0142": {
                 "name": "Security Lockdown",
-                "ID": "0142",
                 "retained": false,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Play to prevent any players from moving to or from the Aegis until end of turn."
             },
-            "action_card": {
+            "0143": {
                 "name": "Personal Bodyguard Detail",
-                "ID": "0143",
                 "retained": false,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": false,
                 "description": "Play this card to improve your chances against physical danger. This card may be handed to players of other ships."
             },
-            "action_card": {
+            "0144": {
                 "name": "Superior Training",
-                "ID": "0144",
                 "retained": true,
                 "once_per_turn": true,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Play to reroll any die except the morale roll."
             },
-            "action_card": {
+            "0145": {
                 "name": "Into the Pilot Seat",
-                "ID": "0145",
                 "retained": true,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Can only be used by the FWCO. At the start of a wolf attack you may choose 1 Aegis fighter unit. This unit activates twice each fleet round. If it is damaged or destroyed during the attack you are wounded."
             },
-            "action_card": {
+            "0146": {
                 "name": "Repair Fighter Squadron",
-                "ID": "0146",
                 "retained": true,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Use 1 engineer and 2 materials to repair 1 fighter at the start of next turn. Can only be used if the Aegis Hangar Bay is intact."
             },
-            "action_card": {
+            "0147": {
                 "name": "Build Fighter Squadron",
-                "ID": "0147",
                 "retained": true,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Use 2 engineers and 5 materials to gain 1 fighter at the start of next turn. Can only be used if the Aegis Hangar Bay is intact."
             },
-            "action_card": {
+            "0148": {
                 "name": "Reserves",
-                "ID": "0148",
                 "retained": false,
                 "once_per_turn": false,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Immediately heal 1 marine unit currently on the Aegis."
             },
-            "action_card": {
+            "0149": {
                 "name": "Personnel Adjustment",
-                "ID": "0149",
                 "retained": true,
                 "once_per_turn": true,
                 "exhausted": false,
                 "affiliation_restricted": true,
                 "description": "Remove 1 crew and pay 1 materials to gain 1 security unit OR remove 1 security unit and gain 1 crew."
             },
-            "action_card": {
+            "0150": {
                 "name": "Pilot Training",
-                "ID": "0150",
                 "retained": true,
                 "once_per_turn": true,
                 "exhausted": false,

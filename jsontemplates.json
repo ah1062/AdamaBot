@@ -95,6 +95,25 @@
                 }
             }
         },
+        "action_cards": {
+            "action_card": {
+                "name": "Do Cool Thing",
+                "ID": "XXXX",
+                "retained": false,
+                "once_per_turn": true,
+                "exhausted": false,
+                "affiliation_restricted": true,
+                "description": "The cool thing does"
+            }
+        },
+        "units": {
+            "unit": {
+                "name": "Dudes",
+                "ID": "XXXX",
+                "damaged": false,
+                "exhausted": false
+            }
+        },
         "shuttles": {
             "shuttle": {
                 "name": "Shuttle",
@@ -108,25 +127,6 @@
                     "ore": 0,
                     "water": 0
                 }
-            }
-        },
-        "units": {
-            "unit": {
-                "name": "Dudes",
-                "ID": "XXXX",
-                "damaged": false,
-                "exhausted": false
-            }
-        },
-        "action_cards": {
-            "action_card": {
-                "name": "Do Cool Thing",
-                "ID": "XXXX",
-                "retained": false,
-                "once_per_turn": true,
-                "exhausted": false,
-                "affiliation_restricted": true,
-                "description": "The cool thing does"
             }
         }
     }
