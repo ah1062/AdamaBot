@@ -1,7 +1,7 @@
 {
     "ship": {
         "name": "Ship Name",
-        "ID": "XXXX",
+        "ID": "YY00",
         "coordinates": "12903",
         "next_coordinates": "",
         "sabotage_coordinates": "",
@@ -60,9 +60,8 @@
         },
         "players": {},
         "stations": {
-            "station": {
+            "YY1X": {
                 "name": "Reployer",
-                "ID": "XXXX",
                 "description": "What the hell is a 'Reployer'?",
                 "usable": true,
                 "reusable": false,
@@ -96,9 +95,8 @@
             }
         },
         "action_cards": {
-            "action_card": {
+            "YY4X": {
                 "name": "Do Cool Thing",
-                "ID": "XXXX",
                 "retained": false,
                 "once_per_turn": true,
                 "exhausted": false,
@@ -107,17 +105,15 @@
             }
         },
         "units": {
-            "unit": {
+            "YY7X": {
                 "name": "Dudes",
-                "ID": "XXXX",
                 "damaged": false,
                 "exhausted": false
             }
         },
         "shuttles": {
-            "shuttle": {
+            "YY0X": {
                 "name": "Shuttle",
-                "ID": "XXXX",
                 "intercepted": false,
                 "clearance": false,
                 "resources": {
