@@ -2,5 +2,6 @@ from dataclasses import dataclass
 
 
 @dataclass
-class CoordState:
-	locked_down: bool = False
+class Player:
+	id: str
+	name: str

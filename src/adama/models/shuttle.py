@@ -1,11 +1,12 @@
 from dataclasses import dataclass, field
 
-from adama.utils.stubs import new_id
-
+from adama.models.resources import ResourcesContainer
 
 @dataclass
 class Shuttle:
-	id: str = field(default_factory=new_id)
-	resources: dict[str, int] = field(default_factory=dict)
+	id: str
+	name: str
 
 	intercepted: bool = False
+	clearance: bool = False
+	resources: ResourcesContainer = field(default_factory=ResourcesContainer)

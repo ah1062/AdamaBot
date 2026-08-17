@@ -1,31 +1,51 @@
 from dataclasses import dataclass, field
 
-from adama.utils.stubs import new_id
+from adama.models.resources import ResourcesContainer
 
+@dataclass
+class ShipCoordinates:
+	coordinates: int
+	next_coordinates: int
+	sabotage_coordinates: int 
+
+@dataclass
+class ShipMorale:
+	level: int
+	temp_roll_modifier: int
+	perm_roll_modifier: int
+	fleet_temp_roll_modifier: int
+	fleet_perm_roll_modifier: int
+
+@dataclass
+class ShipRationLevel:
+	food: int
+	water: int
+
+@dataclass
+class ShipRations:
+	luxurious: ShipRationLevel
+	increased: ShipRationLevel
+	normal: ShipRationLevel
+	low: ShipRationLevel
+	minimum: ShipRationLevel
+	critical: ShipRationLevel
+
+@dataclass
+class ShipFuelConsumption:
+	short: int
+	medium: int
+	long: int
 
 @dataclass
 class Ship:
-	id: str = field(default_factory=new_id)
-	name: str = ""
+	id: str
+	name: str
 
-	isolated: bool = False
-	coords: str = ""
-	next_jump_coords: str | None = None
-	backup_jump_coords: str | None = None
+	coordinates: ShipCoordinates
+	morale: ShipMorale
+	rations: ShipRations
+	resources: ResourcesContainer
+	fuel_consuption: ShipFuelConsumption
 
-	food_ration_level: int = 0
-	food_ration_consumption: list[int] = field(
-		default_factory=lambda: [0] * 7
-	)
-
-	water_ration_level: int = 0
-	water_ration_consumption: list[int] = field(
-		default_factory=lambda: [0] * 7
-	)
-
-	morale_roll_modifier: int = 0
-	morale_level: int = 10
-
-	fuel_short: int = 0
-	fuel_medium: int = 0
-	fuel_long: int = 0
+	players: set[str] = field(default_factory=set)
+	stations: set[str] = field(default_factory=set)
