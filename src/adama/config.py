@@ -6,12 +6,6 @@ from adama.constants import CONFIG_PATH
 
 
 @dataclass
-class GlobalConfig:
-	discord: DiscordConfig
-	database: DatabaseConfig
-
-
-@dataclass
 class DiscordConfig:
 	TOKEN: str
 	PREFIX: str = "."
@@ -19,6 +13,11 @@ class DiscordConfig:
 @dataclass
 class DatabaseConfig:
 	DB_PATH: str = "src/adama/db/adama.sqlite"
+
+@dataclass
+class GlobalConfig:
+	discord: DiscordConfig
+	database: DatabaseConfig
 
 def load_config(file: Path):
 	with open(file, "rb") as f:

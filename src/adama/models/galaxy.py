@@ -12,4 +12,5 @@ class Galaxy:
 	ships: dict[str, Ship] = field(default_factory=dict)
 	shuttles: dict[str, Shuttle] = field(default_factory=dict)
 
+	index: int = 0
 	prev: str | None = None

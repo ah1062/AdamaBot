@@ -4,7 +4,7 @@ from typing import Generic, TypeVar
 from adama.db.database import get_connection
 
 T = TypeVar("T")
-class Repository(ABC, Generic[T]):
+class BaseRepository(ABC, Generic[T]):
 	def __init__(self) -> None:
 		self.conn = get_connection()
 

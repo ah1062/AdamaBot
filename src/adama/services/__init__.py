@@ -1,3 +1,3 @@
-from .game import GameService
+from .galaxy import GalaxyService
 
-__all__ = ["GameService"]
+__all__ = ["GalaxyService"]

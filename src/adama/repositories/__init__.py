@@ -1,3 +1,3 @@
-from .game import GameRepository
+from .galaxy import GalaxyRepository
 
-__all__ = ["GameRepository"]
+__all__ = ["GalaxyRepository"]

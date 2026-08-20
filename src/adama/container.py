@@ -1,15 +1,15 @@
 from dataclasses import dataclass, field
 
-from adama.repositories import GameRepository
-from adama.services import GameService
+from adama.repositories import GalaxyRepository
+from adama.services import GalaxyService
 
 @dataclass
 class Repositories():
-	game: GameRepository = field(default_factory=GameRepository)
+	galaxy: GalaxyRepository = field(default_factory=GalaxyRepository)
 
 @dataclass
 class Services():
-	game: GameService
+	galaxy: GalaxyService
 
 @dataclass
 class Container():
@@ -18,5 +18,5 @@ class Container():
 
 	def __post_init__(self):
 		self.services = Services(
-			game=GameService(self.repos.game)
+			galaxy=GalaxyService(self.repos.galaxy)
 		)
