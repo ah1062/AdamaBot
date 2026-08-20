@@ -27,6 +27,12 @@ class AdamaBot(commands.Bot):
 		logger.info(f"Logged in as: {self.user}")
 
 	async def close(self):
+		services = self.container.services
+		fields = services.__dataclass_fields__
+		for field in fields:
+			service = getattr(services, field)
+			service.close()
+
 		logger.info("Closing down the bot...")
 
 	async def before_command(self, ctx: commands.Context):

@@ -23,7 +23,7 @@ async def _main():
 	bot = AdamaBot(command_prefix=prefix, intents=intents, container=container)
 	try:
 		await bot.start(token)
-	except asyncio.exceptions.CancelledError | KeyboardInterrupt:
+	except (asyncio.CancelledError, KeyboardInterrupt):
 		logger.info("Interrupt detected, attempting safe close...")
 	finally:
 		if not bot.is_closed():
